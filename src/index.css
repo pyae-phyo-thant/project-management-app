@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./pattern-simple.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.active {
+  color:  #388e3c;
+}
+.mg-top {
+  margin-top: 8px;
+}
+.margin-top {
+  margin-top: 50px;
+}
+.bd-btn {
+  border-bottom: 3px solid green;
+  width: 12%;
+}
+.bd-radius {
+  border-radius: 5px;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #66bb6a;
+  box-shadow: none;
 }
